@@ -34,7 +34,11 @@ export const Route = createRootRouteWithContext<{
         : []),
       ...seo({ title: site.name, description: site.description }).meta
     ],
-    links: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+    links: [
+      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      { rel: 'apple-touch-icon', href: '/favicon.svg' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+    ]
   }),
   errorComponent: (props) => (
     <RootDocument>
