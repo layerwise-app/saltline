@@ -23,8 +23,8 @@ type Site = {
 
 /** What search engines and link previews read about this site. */
 export const site: Site = {
-  name: 'My App',
-  description: 'Built with Layerwise',
+  name: 'Saltline',
+  description: 'A rain-soaked browser FPS. Cut three uplinks and reach the boat.',
   url: '',
   image: '',
   imageAlt: '',

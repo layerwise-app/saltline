@@ -1,0 +1,4 @@
+Footsteps: "Fantozzi's Footsteps (Grass/Sand & Stone)" by Fantozzi, stone set
+https://opengameart.org/content/fantozzis-footsteps-grasssand-stone
+License: CC0 1.0 (public domain) - http://creativecommons.org/publicdomain/zero/1.0/
+Converted to mono 44.1 kHz WAV, 55 Hz high-pass, short fade-out.

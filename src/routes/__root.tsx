@@ -34,7 +34,7 @@ export const Route = createRootRouteWithContext<{
         : []),
       ...seo({ title: site.name, description: site.description }).meta
     ],
-    links: [{ rel: 'icon', href: '/favicon.ico' }]
+    links: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
   }),
   errorComponent: (props) => (
     <RootDocument>
